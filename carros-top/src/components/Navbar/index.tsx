@@ -6,7 +6,7 @@ import 'bootstrap/js/src/collapse.js'
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-ligth nav-color-background main-nav">
+      <nav className="navbar navbar-expand-md navbar-light nav-color-background main-nav">
         <div className="container-fluid">
           <a href="link" className="nav-logo-text">
             <h4>Carros Top</h4>
