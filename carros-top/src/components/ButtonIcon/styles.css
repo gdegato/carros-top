@@ -1,5 +1,5 @@
 .btn-icon {
-    width: 170px;
+    min-width: 170px;
     height: 40px;
     background-color: #00285F;
     color: #fff;
