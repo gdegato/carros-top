@@ -1,7 +1,7 @@
-import '../../assets/styles/custom.scss'
-import '../../App.css'
-import './styles.css'
-import 'bootstrap/js/src/collapse.js'
+import '../../assets/styles/custom.scss';
+import '../../App.css';
+import './styles.css';
+import 'bootstrap/js/src/collapse.js';
 
 const Navbar = () => {
   return (
@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="dscatalog-navbar">
             <ul className="navbar-nav offset-md-2 main-menu">
               <li>
-                <a href="link" className="active">
+                <a href="/" className="active">
                   Home
                 </a>
               </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
       </nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

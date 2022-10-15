@@ -39,3 +39,11 @@ main-menu a.active {
     }
 
 }
+
+@media (min-width: 1280px) {
+    .main-nav {
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+
+}
