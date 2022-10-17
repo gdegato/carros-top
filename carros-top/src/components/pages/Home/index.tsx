@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Navbar />
       <div className="home-container">
-        <div className="home-card">
+        <div className="base-card home-card">
           <div className="home-content-container">
             <h1>O carro perfeito para você</h1>
             <p>

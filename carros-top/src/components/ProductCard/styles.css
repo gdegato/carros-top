@@ -1,0 +1,18 @@
+.product-card{
+    margin-bottom: 40px;
+    color: #000;
+    border: solid 2px green;
+}
+.product-card p {
+    color: #585858;
+}
+.card-top-container{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+    border: solid 2px blue;
+}
+
+.image {
+    border: solid 2px red;
+}

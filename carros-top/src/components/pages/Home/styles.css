@@ -2,7 +2,6 @@
     padding: 20px 10px;
     font-size: 14px;
     text-align: center;
-    border: 1px solid red;
     background-color: #fff;
 }
 
@@ -13,13 +12,11 @@
     background: #00285F;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    border: 1px solid orange;
     margin-bottom: 21px;
 }
 
 .home-image-container {
     padding: 62px 28px 35px 28px;
-    border: 1px solid rgb(7, 245, 98);
 }
 
 .home-image-container svg {
@@ -29,7 +26,6 @@
 
 .home-content-container {
     padding: 0px 20px 30px 20px;
-    border: 1px solid blue;
     font-size: 14px;
 }
 
@@ -40,7 +36,6 @@
 
 .home-catalog {
     background-color: #EDEDED;
-    border: 1px solid blue;
     border-radius: 10px;
     padding: 28px 50px 25px 50px;
     display: flex;
@@ -143,6 +138,8 @@
 
     .home-content-container {
         padding: 140px 63px 140px 85px;
+        align-items: flex-start;
+        align-content: space-between;
         display: flex;
         flex-direction: column;
         text-align: left;
@@ -158,34 +155,33 @@
 
     .home-image-container svg {
         width: 333px;
-        height: auto;
     }
 }
 
 @media (min-width: 1444px) {
-    .home-container {
-        padding: 30px 250px;
-    }
-
 
     .home-content-container {
-        padding: 180px 35px 140px 105px;
+        padding: 180px 145px 140px 105px;
     }
 
     .home-content-container p {
         font-size: 1.1em;
+        min-width: 400px;
+    }
+
+    .home-content-container h1 {
+        min-width: 420px;
     }
 
     .home-image-container {
-        padding: 83px 60px;
+        padding: 83px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         flex: auto;
     }
 
     .home-image-container svg {
-        width: 450px;
-        height: auto;
+        width: 380px;
     }
 
     .home-catalog {
