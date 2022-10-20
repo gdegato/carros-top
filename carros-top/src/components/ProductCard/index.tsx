@@ -1,5 +1,4 @@
 import ButtonCatalog from 'components/ButtonCatalog';
-import ButtonSearch from 'components/ButtonSearch';
 import { Link } from 'react-router-dom';
 import ProductImg from '../../assets/images/product.png';
 import './styles.css';

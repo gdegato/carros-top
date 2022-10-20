@@ -1,6 +1,5 @@
 import ButtonIcon from '../../../components/ButtonIcon';
 import { ReactComponent as MainImage } from '../../../assets/images/car-header.svg';
-import Navbar from '../../../components/Navbar';
 import './styles.css';
 import { Link } from 'react-router-dom';
 
