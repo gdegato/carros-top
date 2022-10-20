@@ -1,4 +1,6 @@
+import ButtonCatalog from 'components/ButtonCatalog';
 import ButtonSearch from 'components/ButtonSearch';
+import { Link } from 'react-router-dom';
 import ProductImg from '../../assets/images/product.png';
 import './styles.css';
 
@@ -12,25 +14,21 @@ const ProductCard = () => {
           </div>
           <div className="card-content-container">
             <div>
-              <h4>Audi Supra TT</h4>
-              <p>
+              <h3 className="card-title">Audi Supra TT</h3>
+              <p className="card-description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Cupiditate, nisi
               </p>
             </div>
-            <div>
-              <button>Comprar</button>
-              {/* <Link to="/products">
-                <ButtonIcon />
-              </Link> */}
+            <div className="container-card-top">
+              <div className="card-button">
+              <Link to="/products">
+                <ButtonCatalog />
+              </Link>
             </div>
+            </div>
+            
           </div>
-        </div>
-      </div>
-      <div className="base-card product-card">
-              <div className="product-search">
-                  <input type="text" placeholder='Digite sua busca'/>
-          <ButtonSearch />
         </div>
       </div>
     </>

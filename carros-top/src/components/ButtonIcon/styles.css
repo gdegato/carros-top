@@ -1,7 +1,47 @@
 .btn-icon {
-    min-width: 170px;
+    min-width: 177px;
     height: 40px;
     background-color: #00285F;
     color: #fff;
     text-transform: uppercase;
+    border: none;
+    font-size: 14px
+}
+
+.btn-catalog {
+    min-width: 174px;
+    height: 40px;
+    background-color: #00285F;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font-size: 14px;
+}
+
+@media(min-width: 576px) {
+
+    .btn-catalog {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 768px) {
+
+    .btn-catalog {
+        width: 290px;
+    }
+}
+
+@media(min-width: 992px) {
+
+    .btn-catalog {
+        width: 257px;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .btn-catalog {
+        width: 266px;
+    }
 }

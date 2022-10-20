@@ -1,28 +1,32 @@
-import Navbar from 'components/Navbar';
+import ButtonSearch from 'components/ButtonSearch';
 import ProductCard from 'components/ProductCard';
 
 const Catalog = () => {
   return (
     <>
-      <Navbar />
-      <div className="my-4 container">
+      <div className="my-4 container catalog-container">
+        <div className="base-card product-card">
+          <div>
+            <ButtonSearch />
+          </div>
+        </div>
         <div className="row">
-          <div className="col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-sm-6 col-lg-4">
             <ProductCard />
           </div>
-          <div className="col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-sm-6 col-lg-4">
             <ProductCard />
           </div>
-          <div className="col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-sm-6 col-lg-4">
             <ProductCard />
           </div>
-          <div className="col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-sm-6 col-lg-4">
             <ProductCard />
           </div>
-          <div className="col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-sm-6 col-lg-4">
             <ProductCard />
           </div>
-          <div className="col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-sm-6 col-lg-4">
             <ProductCard />
           </div>
         </div>

@@ -1,25 +1,41 @@
 .btn-container {
     display: flex;
+    justify-content: center;
 }
 
 .btn-container button {
+    border-radius: 0px 5px 5px 0px;
+    min-width: 77px;
+}
 
-    border-radius: 10px 0 0 10px;
+.btn-catalog {
+    width: 257px;
 }
 
 .btn h6 {
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
+    text-align: center;
     text-transform: uppercase;
 }
 
-.btn-icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 0 10px 10px 0;
-    background-color: #33569B;
+@media (min-width: 576px) {
+    .btn {
+        width: 220px;
+    }
 
+    .btn-search {
+        width: 170px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    /* .btn {
+        width: 307px;
+    } */
+    .btn-search {
+        width: 170px;
+    }
 }

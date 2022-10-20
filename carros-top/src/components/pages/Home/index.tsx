@@ -2,11 +2,11 @@ import ButtonIcon from '../../../components/ButtonIcon';
 import { ReactComponent as MainImage } from '../../../assets/images/car-header.svg';
 import Navbar from '../../../components/Navbar';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container">
         <div className="base-card home-card">
           <div className="home-content-container">
@@ -21,7 +21,11 @@ const Home = () => {
           </div>
         </div>
         <div className="home-catalog">
-          <ButtonIcon />
+          <div>
+            <Link to="/products">
+              <ButtonIcon />
+            </Link>
+          </div>
           <p>Comece agora a navegar</p>
         </div>
       </div>

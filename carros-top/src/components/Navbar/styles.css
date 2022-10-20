@@ -20,13 +20,16 @@
     display: flex;
     font-size: 18px;
     width: 200px;
-    justify-content: space-between;
-
+    justify-content: space-around;
 }
 
-main-menu a.active {
+.main-menu a:hover {
     color: #00285F;
-    font-weight: 700;
+}
+
+.main-menu a.active {
+    color: #00285F;
+    font-weight: bold;
 }
 
 #dscatalog-navbar {
@@ -37,13 +40,11 @@ main-menu a.active {
     .main-nav {
         padding-right: 20px;
     }
-
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     .main-nav {
         padding-right: 150px;
         padding-left: 150px;
     }
-
 }
